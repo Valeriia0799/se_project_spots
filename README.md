@@ -19,3 +19,11 @@ Spots is a responsive image sharing website designed for users to discover and e
 This webpage is deployed to GitHub Pages
 
 - [Deployment Link](https://valeriia0799.github.io/se_project_spots/)
+
+## Project Video
+
+This video demonstrates the project functionality, shows the responsive design on different devices, and explains the code structure.
+
+Watch the video here:
+
+[Watch the video](https://storage.googleapis.com/fbvcb/Video.mov)
