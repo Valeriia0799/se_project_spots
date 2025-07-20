@@ -4,13 +4,15 @@ An image sharing site.
 
 ## Description
 
-Describe the project and its functionality
+Spots is a responsive image sharing website designed for users to discover and enjoy high-quality images. It features a clean, minimalist layout and intuitive user interface that adapts seamlessly across devices. The site showcases a gallery of images that users can view in an organized, visually appealing format. While currently a static front-end project, it lays the groundwork for potential future features such as user submissions, categories, and image detail views.
 
 ## Tech Stack
 
-- HTML
-- CSS
-- Responsive Design
+-HTML – For structuring the webpage content.
+
+-CSS – For styling and layout.
+
+-Responsive Design – Ensures the website looks great on all screen sizes, from mobile phones to desktops.
 
 ## Deployment
 
