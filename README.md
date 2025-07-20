@@ -16,4 +16,4 @@ Describe the project and its functionality
 
 This webpage is deployed to GitHub Pages
 
-- Deployment Link:
+- [Deployment Link](https://valeriia0799.github.io/se_project_spots/)
