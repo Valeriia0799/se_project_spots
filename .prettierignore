@@ -6,3 +6,4 @@ coverage/
 *.log
 *.lock
 .env
+normalize.css

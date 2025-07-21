@@ -5,9 +5,9 @@
 }
 
 .page__section {
-  max-width: 1440px;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 34px 80px 20px;
   box-sizing: border-box;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
 }

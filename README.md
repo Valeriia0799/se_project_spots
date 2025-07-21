@@ -26,4 +26,4 @@ This video demonstrates the project functionality, shows the responsive design o
 
 Watch the video here:
 
-[Watch the video](https://storage.googleapis.com/fbvcb/Video.mov)
+[Watch the video](https://drive.google.com/file/d/19wasO3viRnEgvYJUrXf-nA29z9Vq7FLj/view?usp=sharing)
