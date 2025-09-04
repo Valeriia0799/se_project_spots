@@ -40,6 +40,8 @@
   padding: 32px 50px;
   box-sizing: border-box;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal__form {
@@ -53,12 +55,13 @@
 
 .modal__caption {
   margin: 0 0 32px;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 500;
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-top: 12px;
+  background-color: #212121;
+  border-radius: 8px;
+  padding: 4px 8px;
 }
 
 .modal__close-btn {
@@ -67,7 +70,6 @@
   height: 40px;
   top: 32px;
   right: 50px;
-  background-image: url(../images/close-btn\ white.png);
   border: none;
   background-repeat: no-repeat;
   background-position: center;
@@ -77,21 +79,23 @@
 
 .modal__close-btn_type_form {
   position: absolute;
-  background-image: url(../images/close-btn\ white.png);
-  top: 0;
-  right: -52.5px;
+  background-image: url(../images/close-btn\ default.svg);
+}
+
+.modal__close-btn_type_form:hover {
+  background-image: url(../images/close-btn\ hover.svg);
 }
 
 .modal__close-btn_type_preview {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 0;
+  right: -52.5px;
   z-index: 2;
+  background-image: url(../images/close-btn\ white.svg);
 }
 
-.modal__close-btn:hover {
-  background-image: url(../images/white-hover.png);
-  opacity: 1;
+.modal__close-btn_type_preview:hover {
+  background-image: url(../images/close-btn\ white\ hover.svg);
 }
 
 .modal__submit-btn {
@@ -126,8 +130,9 @@
   padding: 0;
   background: transparent;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .modal__input {
@@ -189,6 +194,6 @@
   }
 
   .modal__image {
-    max-width: unset;
+    max-width: 288px;
   }
 }
