@@ -123,7 +123,6 @@
 }
 
 .modal__image-container {
-  max-width: 80vw;
   max-height: 80vh;
   box-sizing: border-box;
   position: relative;
