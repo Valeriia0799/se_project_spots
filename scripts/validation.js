@@ -73,6 +73,16 @@ function resetForm(formEl, settings) {
   toggleButtonState(inputList, buttonEl, settings);
 }
 
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+  document.addEventListener("keydown", handleEscClose);
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+  document.removeEventListener("keydown", handleEscClose);
+}
+
 function handleEscClose(evt) {
   if (evt.key === "Escape") {
     const openedModal = document.querySelector(".modal.modal_is-opened");
