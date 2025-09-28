@@ -167,6 +167,13 @@
   color: #2121214d;
 }
 
+.modal__error {
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
 .modal__error_visible {
   display: block;
   color: #ff0000b2;
