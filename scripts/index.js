@@ -136,7 +136,10 @@ newPostFormEl.addEventListener("submit", (evt) => {
 
   cardsList.prepend(newCard);
   closeModal(newPostModal);
+
   newPostFormEl.reset();
+
+  resetForm(newPostFormEl, validationSettings);
 });
 
 initialCards.forEach((item) => {
